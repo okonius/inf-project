@@ -41,3 +41,10 @@ p {
 
 .container {
 }
+
+.image-container {
+  color: grey;
+  height: 200px;
+  left: 0;
+  right: 0;
+}
