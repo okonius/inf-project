@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    ;
+}
+.letter { /*animacja każdej literki w tytule*/
+    display: inline-block; /* Ważne, by animacja transformacji działała */
+    opacity: 0;
+    transform: translateY(10px); /* Lekkie wejście od dołu dla elegancji */
+    animation: letterFadeIn 0.5s ease forwards;
+}
+
+@keyframes letterFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
