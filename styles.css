@@ -17,34 +17,53 @@ body {
 
 h1 {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  animation: letterFadeIn 1.5s ease-out;
 }
 
 p {
   font-size: 1.5rem;
-  transform: translateY(50px);
-  animation: letterFadeIn 1s ease forwards;
+  animation: letterFadeIn 1.5s ease-out;
+}
+
+.info {
+  display: flex;
+  justify-self: center;
+  width: 75%;
+  size: 10px;
+}
+
+hr {
+  color: #ffffff;
+  width: 90%;
 }
 .letter {
   display: inline-block;
   opacity: 0;
-  transform: translateY(50px);
   animation: letterFadeIn 0.1s ease forwards;
 }
 
 @keyframes letterFadeIn {
-  to {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
-.container {
-}
-
 .image-container {
-  color: grey;
-  height: 200px;
+  margin-top: 10px;
+  position: relative;
+  background-color: grey;
+  height: 600px;
   left: 0;
   right: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
 }
