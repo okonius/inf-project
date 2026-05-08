@@ -1,4 +1,4 @@
-const text = "Śladami Trawnik";
+const text = "Śladami Trawnik...";
 const speed = 75;
 let i = 0;
 
