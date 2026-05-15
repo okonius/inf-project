@@ -12,11 +12,13 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
+  top: 0;
 }
 
 h1 {
   font-weight: bold;
   font-size: 3rem;
+
 }
 
 h2 {
@@ -24,19 +26,10 @@ h2 {
   animation: letterFadeIn 1.5s ease-out;
 }
 
-p {
-  font-size: 1.5rem;
-  animation: letterFadeIn 1.5s ease-out;
-}
-
 .info {
-  font-size: 1rem;
+  font-size: 1.1rem;
   display: block;
-  margin-bottom: 25px;
-  width: 90%; 
-  max-width: 800px; 
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 500px; 
   text-align: center;
   word-wrap: break-word;
 }
@@ -45,7 +38,6 @@ p {
   font-size: 0.8rem;
   margin-top: 10px;
   color: #ffffffa7;
-  display: block;
   text-align: right;
 }
 
@@ -68,19 +60,45 @@ hr {
   }
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+}
 .links a {
+  margin-right: 10px;
+  color: #ffffff;
+  }
 
-  display:block;
+.main-info {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-self: center;
 }
 .image-container {
-  width: 80%; /* Musi być określona szerokość (px, %, lub calc) */
+  width: 60%; 
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
+  height: 500px;
   background-color: grey;
   border-radius: 20px;
 }
 
+.text-container {
+  padding-right: 20px;
+}
+.map-embed iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.map-embed {
+  width: 80%;
+  height: 600px;
+  background-color: grey;
+  border-radius: 20px;
+}
 
 .authors {
   font-size: 0.8rem;
