@@ -93,8 +93,8 @@ hr {
   height: 600px;
   display: flex;
   justify-content: center;
+  align-items: center;
   object-fit: contain;
-  background-color: grey;
   border-radius: 20px;
 }
 
