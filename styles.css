@@ -89,8 +89,8 @@ hr {
   align-self: center;
 }
 .image-container {
-  width: auto; 
-  height: auto;
+  width: 60%; 
+  height: 60%;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
