@@ -91,6 +91,7 @@ hr {
 .image-container {
   width: auto; 
   height: auto;
+  object-fit: cover;
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
