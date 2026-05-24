@@ -89,10 +89,11 @@ hr {
   align-self: center;
 }
 .image-container {
-  width: 400px; 
-  height: 600px;
+  width: 500px; 
+  height: 700px;
   display: flex;
   justify-content: center;
+  align-items: center;
   object-fit: contain;
   background-color: grey;
   border-radius: 20px;
