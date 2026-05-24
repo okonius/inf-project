@@ -92,7 +92,7 @@ hr {
   width: 400px; 
   height: 600px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   object-fit: contain;
   background-color: grey;
   border-radius: 20px;
